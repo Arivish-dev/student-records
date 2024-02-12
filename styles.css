@@ -1,0 +1,164 @@
+:root{
+    --navy: #0c2d57;
+    --orange: #fc6736;
+    --yellow: yellow;
+    --grey:rgb(245, 235, 235);
+    --white: whitesmoke;
+}
+body{
+    font-family: system-ui;
+    margin: 0px;
+    padding: 0px;
+   
+}
+h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+header{
+    background-color: var(--white);
+    display: flex;
+}
+header h3{
+    flex: 2;
+    padding: 10px;
+    color: var(--orange);
+}
+header nav{
+    flex: 1;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: var(violet);
+}
+header nav a:hover{
+    color: green;
+}
+h1{
+    color: green;
+    text-align: center;
+    margin-top: 70px;
+}
+.para{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+.para p{
+    text-align: center;
+    word-spacing: .3rem;
+    letter-spacing: .1rem;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    border: 5px solid var(--navy);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+form h3{
+    text-align: center;
+    color: red;
+}
+
+.input input{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(241, 234, 234);
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    box-shadow: 10px 5px 2px black;
+}
+.input label{
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button{
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    padding: 5px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
+}
+button a{
+    color: white;
+   
+}
+
+input:focus{
+    outline: none;
+}
+
+/* register page*/
+.register{
+    width: 450px;
+    height:fit-content;
+    border: 5px solid var(--navy);
+    margin: auto;
+    border-radius: 10px;
+}
+h2{
+    color: green;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin: 20px auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+.dashboard{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    border: 1px solid blue;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+}
+.name,.course,.rollno,.batch{
+    color: yellow;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#value{
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.attenance,.Arrears,.internalMarks,.assignmentMarks,.fees,.notes,.percentage-calculator{
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    margin: 20px;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto;
+}
